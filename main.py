@@ -125,7 +125,7 @@ if selection == "Find School":
 
 elif selection == "Chat":
     st.title("Ask AI")
-    st.write("kindly type only the school name yoy want to kniw about thanks")
+    st.write("kindly type only the school name yoy want to know about thanks")
 
     # Initialize the AI model
     st.session_state.model = genai.GenerativeModel('gemini-pro')
