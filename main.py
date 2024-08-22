@@ -90,6 +90,7 @@ selection = st.sidebar.radio("Go to", ["Find School", "Chat"])
 
 if selection == "Find School":
     st.title("University Recommendation System")
+    st.write("Project By Onakoya Praise Kasope (20192990)")
 
     # User Inputs
     selected_jamb_score = st.number_input("Enter your JAMB score", min_value=0, max_value=400, step=1)
